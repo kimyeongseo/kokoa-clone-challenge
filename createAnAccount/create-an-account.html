@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="create-an-account.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>create an account</title>
+  </head>
+
+  <body>
+    <h1>Create An Account</h1>
+
+    <form id="create__account">
+      <label for="first-name"
+        >First name
+        <input id="first-name" required type="text" placeholder="First name" />
+      </label>
+
+      <label for="last-name">
+        Last name
+        <input id="last-name" required type="text" placeholder="Lsat name" />
+      </label>
+
+      <label for="email">
+        Email
+        <input id="email" required type="email" placeholder="Email" />
+      </label>
+
+      <label for="username">
+        Username
+        <input id="username" required type="text" placeholder="Username" />
+      </label>
+
+      <label for="password">
+        Password
+        <input
+          id="password"
+          required
+          type="password"
+          placeholder="Password"
+          minlength="10"
+        />
+      </label>
+
+      <label for="birth-date">
+        Birth date
+        <input id="birth-date" required type="date" />
+      </label>
+
+      <span
+        >How happy are you?
+        <input type="range" list="tickmarks" />
+        <datalist id="tickmarks">
+          <option value="0"></option>
+          <option value="10"></option>
+          <option value="20"></option>
+          <option value="30"></option>
+          <option value="40"></option>
+          <option value="50"></option>
+          <option value="60"></option>
+          <option value="70"></option>
+          <option value="80"></option>
+          <option value="90"></option>
+          <option value="100"></option>
+        </datalist>
+      </span>
+
+      <span
+        >What is your fav.color?
+        <input type="color" />
+      </span>
+
+      <input id="submit" type="submit" value="Create Account" />
+    </form>
+  </body>
+</html>
