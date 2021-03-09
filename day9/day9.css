@@ -1,0 +1,101 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ani-box {
+  width: 1000px;
+  height: 1000px;
+  background-color: cadetblue;
+  position: relative;
+}
+
+@keyframes 원회전 {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(180deg);
+  }
+}
+
+.원 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 200px;
+  right: 400px;
+  animation: 원회전 0.8s ease-in-out infinite;
+}
+
+.원 div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.사각형 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 500px;
+  right: 400px;
+}
+
+.사각형 div {
+  width: 30px;
+  height: 100px;
+  background-color: white;
+}
+
+@keyframes 사각형ani {
+  0% {
+    width: 30px;
+    height: 100px;
+  }
+  50% {
+    width: 30px;
+    height: 180px;
+  }
+  70% {
+    width: 30px;
+    height: 100px;
+  }
+  100% {
+    width: 30px;
+    height: 100px;
+  }
+}
+
+.작은사각형 {
+  animation: 사각형ani 1s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+
+.작은사각형:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.작은사각형:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.작은사각형:nth-child(4) {
+  animation-delay: 0.5s;
+}
+
+.작은사각형:last-child {
+  animation-delay: 0.6s;
+}
