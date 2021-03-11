@@ -1,0 +1,92 @@
+.screen__main {
+  margin: 50px 10px 0px 10px;
+}
+
+.screen__main--header {
+  font-size: 23px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.screen__main--box {
+  display: flex;
+}
+
+.screen__main--img {
+  width: 110px;
+  height: 160px;
+  border-radius: 10px;
+}
+
+.screen__main--info {
+  margin-left: 10px;
+}
+
+.screen__main--title {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.screen__main--author {
+  display: block;
+  font-size: 14px;
+  opacity: 0.5;
+  margin-bottom: 15px;
+}
+
+.screen__main--star {
+  color: rgb(255, 206, 51);
+  margin-bottom: 15px;
+}
+
+.bin-star {
+  color: black;
+  opacity: 0.2;
+}
+
+.screen__main--src {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.screen__main--src div {
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 70px;
+  height: 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen__main--act {
+  display: flex;
+}
+
+.screen__main--act i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(255, 206, 51);
+  margin-right: 40px;
+}
+
+.screen__main--act div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+}

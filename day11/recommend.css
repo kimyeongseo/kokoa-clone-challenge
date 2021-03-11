@@ -1,0 +1,28 @@
+.screen__recommend {
+  margin: 25px 10px 0px 10px;
+}
+
+.screen__recommend--img {
+  width: 70px;
+  height: 110px;
+  border-radius: 10%;
+}
+
+.small {
+  font-size: 10px;
+  margin: 10px 5px 0px 5px;
+}
+
+.screen__recommend--header {
+  font-size: 23px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.screen__recommend--box {
+  display: flex;
+}
+
+.screen__recommend--info {
+  margin-right: 25px;
+}

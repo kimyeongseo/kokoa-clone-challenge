@@ -1,0 +1,37 @@
+.screen__authors {
+  margin: 25px 10px 0px 10px;
+}
+
+.screen__authors--header {
+  font-size: 23px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.screen__authors--img {
+  width: 105px;
+  height: 130px;
+  border-radius: 10%;
+}
+
+.screen__authors--box {
+  display: flex;
+}
+
+.screen__authors--info {
+  margin-left: 25px;
+}
+.screen__authors--info span {
+  display: block;
+  line-height: 23px;
+  opacity: 0.9;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.screen__authors--info p {
+  font-size: 15px;
+  line-height: 17px;
+  opacity: 0.5;
+  margin-top: 10px;
+}
