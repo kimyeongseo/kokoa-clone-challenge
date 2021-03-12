@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>You Are Awesome!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="day12-13.css" />
+  </head>
+
+  <body>
+    <div class="screen">
+      <div class="screen__phone">
+        <div class="screen__header">
+          <i class="fas fa-arrow-left"></i>
+          <i class="fas fa-search"></i>
+        </div>
+
+        <div class="screen__title">
+          <img
+            class="screen__title--img"
+            src="https://seoulbeats.com/wp-content/uploads/2020/05/20200527_seoulbeats_TheBoyz_Cre.ker-Entertainment2-1152x759.png"
+          />
+        </div>
+
+        <div class="screen__title--info">
+          <div class="screen__title--info--singer">The Boyz</div>
+          <div class="screen__title--info--genre">
+            Dance, Ballad, Electronica, R&B
+          </div>
+        </div>
+
+        <div class="screen__btn">
+          <div class="screen__btn--shuffle">Shuffle</div>
+          <div class="screen__btn--heart">
+            <i class="fas fa-heart"></i>
+            <span>962,122</span>
+          </div>
+        </div>
+
+        <div class="screen__subtitle">
+          <img
+            class="screen__subtitle--img"
+            src="data:image/jpeg;base64,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utauKcE+XdP2Byim/tKdj3kspO9D0TwtHM0TorsN9PH0Jkk65LQNRgq7yToUDSzHUBDpjONcZG1N1L1ua648T6CijToEks+ewFrCnfmxjjibXYeUjr5WWXMACJ3F0Hax0sd5jLqwZgqdRBmptGksdpJJk0mijN3vj0wtaMja6/8AlWth1xvEzmJkROhzEREAREQBERAEREAREQBERAEREAryfKgF5uoucl72vZlJ95TqOzQZ0/DS+NFhUHYOi43ocfK8gmzI3FqrJr59dcDs+S1BgabA7VYT6OUZDUrqKwQhtFTO6AuB7QFrCxAx27589ctqAWFVgOwMw/ueUypw4cO2cNBJvwx0jZJaqdo6lU1ULDGOWtMoHN0cbio+q3s1Pbj1z6b5HUcsSzG5OJJ03lh5qrjcUn7LE0zutim7Ebp4/DqnuqGHajK30hNK9+Oo9DKpdrcPfOfPsSqbG4NiNBlhdK3XIR+9boN4gOqdomfhtXWuaO1mVR6meglKnizc63dW4QeJsC24ec11J26aglJ/vUnfJuT3pg1imcF9nm9MM2pjm36Itc7gJDzFRj1HJJx6JJJ8oq5U7NnliDoGb0QANCqBoGyDltU4GrUO92+8xKq7jqJptidxycy41SKQ/V1jupjE+k818qAU06QKoesT16ltGdbQP0j1kkTdmcXrXmJ3a15GRESiRERAEREAREQBERAEREAREQBERAEREAREQDYmRANmWiJoNmREATZkTAIiIAiIgCIiAIiIAiIgCJsQDIibAMiIgCIiAIiZANiZEA2ZNmQAJsybAEREAREQBEyIBsTIgCIiAbERAEREARETQZERMBsREATYiAJkRAEREAyZEQBNiIAiIgGzYiAZERAEREAyZEQDYiIAiIgHuIiaD//Z"
+          />
+          <div class="screen__subtitle--info">
+            <span class="screen__subtitle--info--singer">The Boyz</span>
+            <span class="screen__subtitle--info--title">Bloom Bloom</span>
+          </div>
+          <div class="screen__subtitle--icon">
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+        <div class="screen__subtitle">
+          <img
+            class="screen__subtitle--img"
+            src="https://image.bugsm.co.kr/album/images/350/40175/4017584.jpg"
+          />
+          <div class="screen__subtitle--info">
+            <span class="screen__subtitle--info--singer">The Boyz</span>
+            <span class="screen__subtitle--info--title">Christmassy!</span>
+          </div>
+          <div class="screen__subtitle--icon">
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+        <div class="screen__subtitle">
+          <img
+            class="screen__subtitle--img"
+            src="http://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/598/104/81598104_1600669525491_1_600x600.JPG"
+          />
+          <div class="screen__subtitle--info">
+            <span class="screen__subtitle--info--singer">The Boyz</span>
+            <span class="screen__subtitle--info--title">Whiplash</span>
+          </div>
+          <div class="screen__subtitle--icon">
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+        <div class="screen__subtitle">
+          <img
+            class="screen__subtitle--img"
+            src="http://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/356/300/81356300_1581322119680_1_600x600.JPG"
+          />
+          <div class="screen__music--icon">
+            <i class="fas fa-music"></i>
+          </div>
+          <div class="screen__subtitle--info">
+            <span class="screen__subtitle--info--singer">The Boyz</span>
+            <span class="screen__subtitle--info--title">REVEAL</span>
+          </div>
+          <div class="screen__subtitle--icon">
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+
+        <div class="screen__musicbar">
+          <div class="screen__musicbar--info">
+            <div class="screen__musicbar--info-singer">The Boyz</div>
+            <div class="screen__musicbar--info-title">REVEAL</div>
+          </div>
+          <div class="screen__musicbar--icon">
+            <i class="fas fa-step-backward fa-sm"></i>
+            <i class="fas fa-pause"></i>
+            <i class="fas fa-step-forward fa-sm"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen__phone">
+        <div class="screen__header">
+          <i class="fas fa-arrow-left"></i>
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+
+        <div class="screen__music">
+          <img
+            class="screen__music--img"
+            src="http://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/356/300/81356300_1581322119680_1_600x600.JPG"
+          />
+        </div>
+
+        <div class="screen__music--info">
+          <div class="screen__music--info-title">REVEAL</div>
+          <div class="screen__music--info-singer">The Boyz</div>
+        </div>
+
+        <!--재생바는 다음에 하자-
+        <div class="screen__music--play">
+          <audio autoplay controls>
+            <source src="reveal.mp3" type="adio/mp3" />
+          </audio>
+        </div>-->
+        <div class="screen__music--play">
+          <div class="screen__music--play-time">
+            <span>1:40</span><span>3:21</span>
+          </div>
+          <div class="screen__music--play--state">
+            <div class="screen__music--play--long-state">
+              <div class="screen__music--play--shot-state"></div>
+              <div class="screen__music--play--round-state"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="screen__music--icons">
+          <i class="fas fa-random gray"></i>
+          <i class="fas fa-step-backward"></i>
+          <i class="fas fa-play"></i>
+          <i class="fas fa-step-forward"></i>
+          <i class="fas fa-redo gray"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

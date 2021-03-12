@@ -1,0 +1,25 @@
+@import "header.css";
+@import "singer-screen.css";
+
+body {
+  margin: 50px;
+}
+
+.screen {
+  width: 740px;
+  height: 690px;
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.screen__phone {
+  width: 270px;
+  height: 580px;
+  background-color: white;
+  border-radius: 30px;
+  margin: 50px;
+  padding: 0px 10px;
+  box-shadow: 0 10px 40px -4px rgb(0, 0, 0, 0.2);
+}
